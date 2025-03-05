@@ -11,7 +11,6 @@
 #include<cmath>
 
 int main() {
-   
     // declare variables
     float radius, circumference, area;
 
@@ -19,7 +18,7 @@ int main() {
     std::cout << "Enter the radius (mm): ";
     std::cin >> radius;
 
-    // calculate the area and perimeter 
+    // calculate the area and perimeterc
     circumference = M_PI * radius;
     area = M_PI * pow(radius, 2);
 
